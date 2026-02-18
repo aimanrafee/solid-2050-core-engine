@@ -1,0 +1,18 @@
+# --- Rust Specific ---
+/target
+**/*.rs.bk
+Cargo.lock
+
+# --- WebAssembly/wasm-pack Specific ---
+/pkg
+/wasm-pack.log
+
+# --- IDEs & OS ---
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.log
+
+# --- Environment Variables ---
+.env
